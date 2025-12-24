@@ -117,18 +117,18 @@ class TicketPromotion extends StatelessWidget {
               child: Column(
                 children: [
                   Text(
-                    "Take Love",
+                    "Take More discount from here",
                     style: AppStyles.headlineStyle2.copyWith(
                       color: Colors.white,
                     ),
                   ),
                   SizedBox(height: 35),
                   RichText(text:  TextSpan(
-                    children: [
-                      TextSpan(text: '😍',style: TextStyle(fontSize: 38)),
-                      TextSpan(text: '🥰',style: TextStyle(fontSize: 38)),
-                      TextSpan(text: '😘',style: TextStyle(fontSize: 38)),
-                    ],
+                    // children: [
+                    //   TextSpan(text: '😍',style: TextStyle(fontSize: 38)),
+                    //   TextSpan(text: '🥰',style: TextStyle(fontSize: 38)),
+                    //   TextSpan(text: '😘',style: TextStyle(fontSize: 38)),
+                    // ],
                   ))
                 ],
               ),
